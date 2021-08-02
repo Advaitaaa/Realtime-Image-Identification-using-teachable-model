@@ -5,11 +5,10 @@
     margin: 0px;
     box-shadow: 5px 5px 5px grey;
 }
-
-.heading_div
+.heading_div 
 {
-    float: none;    /* float none will help to keep the div in the center */
-    background-color: white;
+    float: none;
+    background: white;
     padding: 10px;
     border-radius: 20px;
     color: black;
@@ -18,18 +17,10 @@
 
 .heading_div2
 {
-    font-size: 18px; 
-} 
-
-canvas 
-{
-    border: 2px black;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 20px;
-    margin-top: 120px;
+    font-size: 18px;
 }
 
-.result_para_tag
+.result_para_tag 
 {
     box-shadow: 5px 5px 5px grey;
     font-size: 20px;
@@ -39,9 +30,16 @@ canvas
 {
     position: fixed;
     color: white;
-    background-color: grey;
-    text-align: center;
-    line-height: 3px;
+    bottom: 0;
     width: 100%;
-    bottom: 0px;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 150px;
 }
